@@ -1,8 +1,10 @@
 <script setup>
+import Header from './components/Header.vue';
 </script>
 
 <template>
-  <h1 className="text-4xl font-bold underline">
-    Hello world!
-  </h1>
+  <div class="bg-white w-4/5 m-auto h-screen rounded-xl shadow-xl mt-14">
+
+    <Header />
+  </div>
 </template>
